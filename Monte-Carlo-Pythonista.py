@@ -9,7 +9,7 @@ canvas.set_size(f, f)
 canvas.set_fill_color(1, 1, 1)
 canvas.fill_rect(0,0,f,f)
 
-k = int(input('Anzahl Punkte: '))
+k = int(input('Number of dots: '))
 for i in range(0,k):
     x = (random.randint(0,f)/f)
     y = (random.randint(0,f)/f)
